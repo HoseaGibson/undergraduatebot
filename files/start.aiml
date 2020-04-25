@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>hi</pattern>
+    <template>Hello, I am your student career bot for the Computer Science department!
+        <button>
+            <text>Here you can learn about the top 5 careers</text>
+            <postback>top 5 Careers</postback>
+        </button>
+        <button>
+            <text>Help with Career choice</text>
+            <postback>find career</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>top 5 Careers</pattern>
+      <template>Here are the top 5 career choices for a Computer Science major
+        <button>
+            <text>Software Developer</text>
+            <postback>software developer</postback>
+        </button>
+        <button>
+            <text>Database Administrator</text>
+            <postback>database administrator</postback>
+        </button>
+        <button>
+            <text>Computer Hardware Engineer</text>
+            <postback>computer hardware engineer</postback>
+        </button>
+        <button>
+            <text>Computer Systems Analyst</text>
+            <postback>computer systems analyst</postback>
+        </button>
+        <button>
+            <text>Computer Network Architect</text>
+            <postback>computer network architect</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>find career</pattern>
+      <template>To help you find the right career choice you will be ask a series of questions
+        <br></br>
+        <br></br>
+        Do you prefer to work with databases, because you find programming a little more challenging
+        <button>
+            <text>Yes</text>
+            <postback>database question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>programming question</postback>
+        </button>
+      </template>
+  </category>
+  
+   <category>
+      <pattern>database question</pattern>
+      <template> Do you have exprience working with relational databases, and sql query?
+        <button>
+            <text>Yes</text>
+            <postback>database question 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>computer hardware question</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>programming question</pattern>
+      <template> Is your preference to create software programs for users
+        <button>
+            <text>Yes</text>
+            <postback>programming question 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>computer systems analyst</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>database question 2</pattern>
+      <template> Do you feel comfortable with database management systems and able to organize and store data?
+        <button>
+            <text>Yes</text>
+            <postback>database Admin question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>network architect question</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>computer hardware question</pattern>
+      <template> Do you enjoy testing computer components such as routers, memory devices?
+        <button>
+            <text>Yes</text>
+            <postback>computer hardware engineer question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>no job found</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>programming question 2</pattern>
+      <template> Are you a good communicator?
+        <button>
+            <text>Yes</text>
+            <postback>software developer question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>computer hardware question</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>computer systems analyst</pattern>
+      <template> Do you think you have strong interpersonal skills
+        <button>
+            <text>Yes</text>
+            <postback>computer systems analyst question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>database question</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>network architect question</pattern>
+      <template> Do you feel comfortable with networks
+        <button>
+            <text>Yes</text>
+            <postback>computer network architect question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>computer hardware question</postback>
+        </button>
+      </template>
+  </category>
+  
+  
+</aiml>

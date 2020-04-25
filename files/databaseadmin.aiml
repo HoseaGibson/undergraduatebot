@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>database administrator</pattern>
+        <template>Database administrators maintain and protect sensitive information and provide access 
+                    to important datasets for companies, institutions, and government bodies. 
+            <br></br> 
+            <br></br>
+            <link>
+                <text> Click here to learn more about Database Administrator path.</text>
+                <url>https://www.computerscience.org/careers/database-administrator/</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>database Admin question</pattern>
+        <template>After answer you have provided we think a Database Administrator role would be ideal career for you!
+        <br></br>
+        <br></br>
+           Database administrators maintain and protect sensitive information and provide access 
+                    to important datasets for companies, institutions, and government bodies. 
+            <br></br> 
+            <br></br>
+            <link>
+                <text> Click here to learn more about Database Administrator path.</text>
+                <url>https://www.computerscience.org/careers/database-administrator/</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here.</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help.</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

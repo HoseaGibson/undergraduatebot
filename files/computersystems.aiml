@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>computer systems analyst</pattern>
+        <template>Computer systems analysts help companies or other organizations use computer technology 
+                    effectively and efficiently. They incorporate new technology into current systems after doing
+                    cost-benefit analyses to determine whether it is financially sound and will serve the entity well.
+            <br></br> 
+            <br></br>
+            <link>
+                <text> Click here to learn more about Computer System Analyst path.</text>
+                <url>https://www.thebalancecareers.com/computer-systems-analyst-526001</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>computer systems analyst question</pattern>
+        <template>After answer you have provided we think a Computer System Analyst role would be ideal career for you!
+        <br></br>
+        <br></br>
+           Computer systems analysts help companies or other organizations use computer technology 
+                    effectively and efficiently. They incorporate new technology into current systems after doing
+                    cost-benefit analyses to determine whether it is financially sound and will serve the entity well.
+            <br></br>
+            <link>
+                <text> Click here to learn more about Computer System Analyst path.</text>
+                <url>https://www.thebalancecareers.com/computer-systems-analyst-526001</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here.</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help.</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

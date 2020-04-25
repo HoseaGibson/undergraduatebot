@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>software developer</pattern>
+        <template>Software Developers create software that enables users to perform specific tasks on computer devices. These task can range from anywhere of 
+                    playing a game, watching a movie, writing a business letter, or building a spreadsheet. 
+            <br></br> 
+            <br></br>
+            <link>
+                <text> Click here to learn more about Software Development path.</text>
+                <url>https://www.thebalancecareers.com/software-developer-job-description-salary-and-skills-2061833</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>software developer question</pattern>
+        <template>After answer you have provided we think a Software Developer role would be ideal career for you!
+        <br></br>
+        <br></br>
+           Software Developers create software that enables users to perform specific tasks on computer devices. These task can range from anywhere of 
+                    playing a game, watching a movie, writing a business letter, or building a spreadsheet. 
+            <br></br> 
+            <br></br>
+            <link>
+                <text> Click here to learn more about Software Development path.</text>
+                <url>https://www.thebalancecareers.com/software-developer-job-description-salary-and-skills-2061833</url>
+            </link>
+            <button>
+                <text>Want to explore other options click here.</text>
+                <postback>top 5 Careers</postback>
+            </button>
+             <button>
+                <text>Click here for career help.</text>
+                <postback>find career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

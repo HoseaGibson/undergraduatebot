@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>help ^ </pattern>
+        <template>Additional help need? Schedule an appointment with your student advisor. Please select appointment time below.
+            <button>
+                <text>08:00:00 AM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>09:00:00 AM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>10:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>11:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>12:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>01:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>02:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>03:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>4:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>thank you</pattern>
+        <template>Thank you! Your student advisor will be notified of your request and will reach out at the desired appointment time.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>no job found</pattern>
+        <template>Sorry we could not suggest a job for you at the momment. Please type "help" to schedule an appointment!</template>
+    </category>
+</aiml>
